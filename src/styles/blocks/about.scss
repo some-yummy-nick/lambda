@@ -1,0 +1,20 @@
+.about {
+  height: 710px;
+  padding-top: 100px;
+  background: url("../images/about-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  &__block {
+    width: 430px;
+    text-align: center;
+  }
+  &__image {
+    width: 219px;
+    height: 221px;
+    margin-left: 130px;
+  }
+  &__pattern {
+    background: url("../images/pattern/yellow.png#pattern");
+    background-repeat: no-repeat;
+  }
+}

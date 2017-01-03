@@ -1,0 +1,98 @@
+.module {
+  min-height: 758px;
+  padding-top: 100px;
+  padding-bottom: 70px;
+  .container {
+    padding-left: 0px;
+    padding-right: 0;
+  }
+  &--ingredients {
+    background: url("../images/ingredients-bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+  }
+  &--review {
+    background: url("../images/review-bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+  }
+  &__block {
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    padding-top: 75px;
+    background-color: rgba(#000, 0.67);
+    text-align: center;
+    &--review {
+      padding: 0;
+    }
+  }
+  .title {
+    color: #fff;
+  }
+  .text {
+    color: #fff;
+  }
+  &__blockquote {
+    color: #dde0df;
+    font-family: 'Gentium Book Basic';
+    font-size: 25px;
+    line-height: 45px;
+    font-weight: 700;
+    svg {
+      width: 32px;
+      height: 25px;
+      fill: rgba(242, 244, 244, 0.47);
+    }
+  }
+  &__pattern {
+    width: 247px;
+    height: 24px;
+    margin-right: auto;
+    margin-left: auto;
+    background: url("../images/pattern/white.png#pattern");
+    background-repeat: no-repeat;
+  }
+  &__image {
+    @include inlineBlock();
+    width: 110px;
+    height: 110px;
+    margin-top: 40px;
+    border-radius: 100%;
+    @include marginRight();
+    background: url("../images/module/wheat.png#module");
+    background-repeat: no-repeat;
+    &--pepper {
+      background: url("../images/module/pepper.png#module");
+      background-repeat: no-repeat;
+    }
+    &--bread {
+      background: url("../images/module/bread.png#module");
+      background-repeat: no-repeat;
+    }
+  }
+  @media($tablet-widths) {
+    &--review {
+      & .container {
+        justify-content: center !important;
+      }
+    }
+    .container {
+      display: flex;
+      justify-content: flex-end;
+    }
+    &__block {
+      margin-right: initial;
+      margin-left: initial;
+      width: 570px;
+      padding: 70px;
+    }
+  }
+@media($desktop-widths) {
+    &__block--review{
+      width: 770px;
+    }
+ }
+}

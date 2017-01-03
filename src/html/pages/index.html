@@ -9,7 +9,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
   <script>WebFont.load({
     google: {
-      families: ["PT Sans:400,700"]
+      families: ["Yeseva One:400", "Lato:400", "Gentium Book Basic:700", "Open Sans:400"]
     }
   });</script>
   <noscript><span class="noscript">У Вас отключён JavaScript...Пожалуйста включите в его в настройках</span>
@@ -23,7 +23,9 @@
 </head>
 <body>
 <!--[if lt IE 8]>
-<p class="chromeframe">Похоже, что ты используешь устаревший браузер, друг. Пожалуйста, <a href="http://browsehappy.com/">скачай новый браузер абсолютно бесплатно</a> или <a href="http://www.google.com/chromeframe/?redirect=true">активируй Google Chrome Frame</a></p>
+<p class="chromeframe">Похоже, что ты используешь устаревший браузер, друг. Пожалуйста, <a
+    href="http://browsehappy.com/">скачай новый браузер абсолютно бесплатно</a> или <a
+    href="http://www.google.com/chromeframe/?redirect=true">активируй Google Chrome Frame</a></p>
 <![endif]-->
 <div class="svg-wrapper" style="height: 0; width: 0; position: absolute; visibility: hidden">
   @@include('../blocks/svg.html')
@@ -31,6 +33,222 @@
 <div class="wrapper">
   <div class="content">
     @@include('../blocks/header.html')
+    <section class="about">
+      <div class="container">
+        <div class="about__block">
+          <h2 class="title">Just the right food</h2>
+          <div class="about__pattern"></div>
+          <p class="text">If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers
+            coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes, muffins, and gourmet
+            coffees make us hard to resist! Stop in today and check us out!</p>
+          <div class="about__image">
+            <img src="images/cook.png" alt="image" width="219" height="221">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="module module--ingredients">
+      <div class="container">
+        <div class="module__block">
+          <h2 class="title">Fine ingredients</h2>
+          <div class="module__pattern"></div>
+          <p class="text">If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers
+            coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes, muffins, and gourmet
+            coffees make us hard to resist! Stop in today and check us out!</p>
+          <div class="module__image  module__image--wheat"></div>
+          <div class="module__image  module__image--pepper"></div>
+          <div class="module__image  module__image--bread"></div>
+        </div>
+      </div>
+    </section>
+    <div class="carte">
+      <div class="container">
+        <div class="carte__items">
+          <div class="carte__overlay">
+            <div class="carte__item">
+              <h3 class="carte__title">Appetisers</h3>
+              <svg class="carte__pattern">
+                <use xlink:href="#pattern"></use>
+              </svg>
+              <table class="carte__table">
+                <tr>
+                  <td>Tzatsiki</td>
+                  <td>$3.99</td>
+                </tr>
+                <tr>
+                  <td>Refreshing traditional cucumber and garlic yoghurt dip.</td>
+                </tr>
+                <tr>
+                  <td>Aubergine_Salad</td>
+                  <td>$5.50</td>
+                </tr>
+                <tr>
+                  <td>Pureed eggplant, garlic, green pepper and tomato dip.</td>
+                </tr>
+                <tr>
+                  <td>Aubergine_Salad</td>
+                  <td>$5.50</td>
+                </tr>
+                <tr>
+                  <td>Pureed eggplant, garlic, green pepper and tomato dip.</td>
+                </tr>
+              </table>
+            </div>
+            <div class="carte__item">
+              <h3 class="carte__title">Salads</h3>
+              <svg class="carte__pattern">
+                <use xlink:href="#pattern"></use>
+              </svg>
+              <table class="carte__table">
+                <tr>
+                  <td>Olive_Special</td>
+                  <td>$5.99</td>
+                </tr>
+                <tr>
+                  <td>Refreshing traditional cucumber and garlic yoghurt dip.</td>
+                </tr>
+                <tr>
+                  <td>Greek_Salad</td>
+                  <td>$5.50</td>
+                </tr>
+                <tr>
+                  <td>Pureed eggplant, garlic, green pepper and tomato dip.</td>
+                </tr>
+                <tr>
+                  <td>Gusto_Salad</td>
+                  <td>$5.25</td>
+                </tr>
+                <tr>
+                  <td>Pureed eggplant, garlic, green pepper and tomato dip.</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="carte__overlay">
+            <div class="carte__item">
+              <h3 class="carte__title">Starters</h3>
+              <svg class="carte__pattern">
+                <use xlink:href="#pattern"></use>
+              </svg>
+              <table class="carte__table">
+                <tr>
+                  <td>Haloumi</td>
+                  <td>$3.99</td>
+                </tr>
+                <tr>
+                  <td>Refreshing traditional cucumber and garlic yoghurt dip.</td>
+                </tr>
+                <tr>
+                  <td>Spinach_Pie</td>
+                  <td>$5.50</td>
+                </tr>
+                <tr>
+                  <td>Pureed eggplant, garlic, green pepper and tomato dip.</td>
+                </tr>
+              </table>
+            </div>
+            <div class="carte__item">
+              <h3 class="carte__title">Main Dishes</h3>
+              <svg class="carte__pattern">
+                <use xlink:href="#pattern"></use>
+              </svg>
+              <table class="carte__table">
+                <tr>
+                  <td>Cornish_Mackerel</td>
+                  <td>$5.99</td>
+                </tr>
+                <tr>
+                  <td>Refreshing traditional cucumber and garlic yoghurt dip.</td>
+                </tr>
+                <tr>
+                  <td>Roast_Lamb</td>
+                  <td>$5.50</td>
+                </tr>
+                <tr>
+                  <td>Pureed eggplant, garlic, green pepper and tomato dip.</td>
+                </tr>
+                <tr>
+                  <td>Fried_Chicken</td>
+                  <td>$5.25</td>
+                </tr>
+                <tr>
+                  <td>Pureed eggplant, garlic, green pepper and tomato dip.</td>
+                </tr>
+                <tr>
+                  <td>Pastitsio</td>
+                  <td>$5.99</td>
+                </tr>
+                <tr>
+                  <td>Pureed eggplant, garlic, green pepper and tomato dip.</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="module module--review">
+      <div class="container">
+        <div class="module__block  module__block--review">
+          <h2 class="title">Guest Reviews</h2>
+          <div class="module__pattern"></div>
+          <blockquote class="module__blockquote">
+            <svg>
+              <use xlink:href="#quote"></use>
+            </svg>
+            If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back
+            for more. Perfect materials and freshly baked food, delicious Lambda cakes, muffins, and gourmet coffees
+            make us hard to resist! Stop in today and check us out!
+          </blockquote>
+          <cite>-food inc, New York</cite>
+        </div>
+      </div>
+    </section>
+    <section class="booking">
+      <div class="container">
+        <div class="booking__images">
+          <div class="booking__image">
+            <img src="images/booking-image1.jpg" alt="image" width="270" height="507">
+          </div>
+          <div class="booking__image">
+            <img src="images/booking-image2.jpg" alt="image" width="270" height="507">
+          </div>
+        </div>
+        <div class="booking__block">
+          <h2 class="booking__title">Just the right food</h2>
+          <div class="booking__pattern"></div>
+          <p class="booking__text">If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our
+            customers coming back for more. Perfect materials and freshly baked food.
+          </p>
+          <p class="booking__text">
+            Delicious Lambda cakes, muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!
+            Perfect materials and freshly baked food.
+          </p>
+          <form action="" class="booking__form">
+            <div class="booking__area">
+              <label class="booking__label" for="">Name</label>
+              <input type="text" class="booking__field" placeholder="Your name">
+            </div>
+            <div class="booking__area">
+              <label class="booking__label" for="">Email</label>
+              <input type="email" class="booking__field" placeholder="Your email">
+            </div>
+            <div class="booking__area">
+              <label class="booking__label" for="">Date</label>
+              <input type="text" class="booking__field" placeholder="Date*">
+            </div>
+            <div class="booking__area">
+              <label class="booking__label" for="">Party number</label>
+              <select name="" id="" class="booking__field">
+                <option value="1">1</option>
+                <option value="2">2</option>
+              </select>
+            </div>
+            <input class="booking__submit" type="button" value="Book now">
+          </form>
+        </div>
+      </div>
+    </section>
   </div>
   @@include('../blocks/footer.html')
 </div>
